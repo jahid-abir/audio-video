@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lets play with Forms</title>
+    <style>
+        label{
+            display: block;
+            margin-bottom: 10px;
+        }
+    </style>
+    <link rel="stylesheet" href="audio&video/style/nav.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="table.html">Table</a></li>
+                <li><a href="index.html">Video</a></li>
+                <li><a href="form.html">Form</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+       <form >
+        <h2>Please Fill the Form.</h2>
+        <label for="name">Your Name :
+            <input id="name" type="text" placeholder="Your name">
+        </label>
+        <label for="email">Email :
+            <input type="email" name="" id="email" placeholder="Your Email">
+        </label>
+        <label for="phone">Phone :
+            <input type="number" name="" id="phone" placeholder="phone">
+        </label>
+        <fieldset>
+            <legend>Select Your Operator</legend>
+            <label for="GrameenPhone">
+                <input type="radio" name="sim" id="GrameenPhone">Grameen-Phone
+            </label>
+            <label for="Airtel">
+                <input type="radio" name="sim" id="Airtel">Airtel
+            </label>
+            <label for="teletalk">
+                <input type="radio" name="sim" id="teletalk">teletalk
+            </label>
+        </fieldset>
+        <fieldset>
+            <legend>
+                Select Any two
+            </legend>
+            <label for="cricket">
+                <input type="checkbox" name="sport" id="cricket">
+                Cricket
+            </label>
+            <label for="Football">
+                <input type="checkbox" name="sport" id="Football">
+                Football
+            </label>
+            <label for="Kabadi">
+                <input type="checkbox" name="sport" id="Kabadi">
+                Kabadi
+            </label>
+        </fieldset>
+        <fieldset>
+            <legend>
+                special Information
+            </legend>
+            <textarea name="" id="" cols="30" rows="5"></textarea>
+        </fieldset>
+        <input type="reset" value="reset">
+        <input type="submit" value="submit-koro">
+       </form>
+    </main>
+    <footer>
+
+    </footer>
+</body>
+</html>
